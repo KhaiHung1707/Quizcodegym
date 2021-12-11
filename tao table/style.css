@@ -7,3 +7,6 @@ form {
 body {
     font-family: 'Space Mono', monospace;
 }
+span {
+    color: red;
+}
