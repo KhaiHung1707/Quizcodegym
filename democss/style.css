@@ -1,0 +1,19 @@
+
+h1 {
+    color: rgb(18, 18, 235);
+    font-size: 50px;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.font {
+    font-size: 20px;
+    color: blue;
+}
+body{
+    background: url("haha.jpeg");
+    
+}

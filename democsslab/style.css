@@ -1,0 +1,34 @@
+table , th ,td {
+     border: 1px solid black; 
+}
+table {
+    /* thuộc tính bỏ các đường viền :border:
+    thiết lập các đường viền của bảng nhập vào 
+    thành một đường viền duy nhất: */
+     border-collapse: collapse; 
+
+      /* chiều rộng chiều cao của bảng */
+      /*chiều rộng */
+      width: 50%; 
+      /*chiều cao */
+    height: 200px;
+}
+td {
+    /* căn chỉnh chiều ngang*/
+     /* text-align: left; */
+    /* text-align: right;*/ 
+     text-align: center; 
+
+    /*căn chỉnh chiều dọc */
+    /* vertical-align:middle;  */
+    /* vertical-align: bottom; */
+     /* vertical-align: top;  */
+
+}
+th {
+    /*thuộc tính màu sắc*/
+     color: aqua; 
+     background-color: blue;
+     padding: 15px;
+
+}
