@@ -1,0 +1,32 @@
+.cart {
+    width: 22.7%;
+    margin: 1%;
+    float: left;
+    border: black 1px solid ;
+}
+.cart img {
+    width: 100%;
+}
+
+.cart p {
+    text-align: center;
+}
+.cart:hover {
+    border-color:black ;
+}
+@media only screen and (max-width: 1000px){
+    .cart {
+        width: 30.5%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .cart {
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .cart {
+        width: 97%;
+    }
+}

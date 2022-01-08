@@ -1,0 +1,30 @@
+.item {
+    background-color: burlywood;
+    border :1px solid ;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0 ;
+    background : lightgreen ;
+}
+.head {
+    display :grid ;
+    grid-template-columns: 30% auto ;
+    grid-gap :10px
+}
+.nav {
+    margin-top : 10px ;
+}
+.content {
+    margin-top : 10px ;
+    display : grid ;
+    grid-template-columns: 15% auto 20%;
+    grid-gap :10px ;
+}
+.left {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 300px 400px ;
+    grid-gap : 10px ;
+    border: none;
+    background: none;
+}

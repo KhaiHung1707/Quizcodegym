@@ -1,0 +1,116 @@
+.head {
+    width: 100%;
+    height: 66px;
+}
+
+.logo {
+    width: 30%;
+    height: 66px;
+    background: greenyellow;
+    float: left;
+}
+
+.banner {
+    width: 70%;
+    height: 66px;
+    background: #af2fff;
+    float: left;
+}
+
+.nav {
+    margin-top: 5px;
+    clear: both;
+    width: 100%;
+    height: 30px;
+    background: red;
+}
+
+.content {
+    margin-top: 5px;
+    width: 100%;
+    height: 700px;
+}
+
+.left {
+    width: 15%;
+    height: 700px;
+    float: left;
+}
+
+.left-top {
+    width: 100%;
+    height: 200px;
+    background: gray;
+}
+
+.left-bot {
+    margin-top: 5px;
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+
+.mid {
+    width: 60%;
+    float: left;
+}
+
+.mid-top {
+    width: 100%;
+    height: 200px;
+
+}
+
+.mid-top-item {
+    width: 48%;
+    height: 200px;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+    background: tomato;
+}
+
+.mid-bot {
+    width: 100%;
+    height: 500px;
+
+}
+
+.mid-bot-item2 {
+    width: 30%;
+    height: 150px;
+    margin: 1%;
+    background: red;
+    float: left;
+}
+
+.right {
+    width: 25%;
+    height: 700px;
+    background: blue;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .mid {
+        width: 100%;
+    }
+
+    .mid-top-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mid-bot-item2 {
+        width:48%;
+        height: 200px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+}
