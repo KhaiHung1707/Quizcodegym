@@ -1,0 +1,22 @@
+.header {
+    width: 600px;
+    float: left;
+    height: 200px;
+    padding-top: 40px;
+}
+.header-2{
+    float: left;
+    padding-top: 60px;
+}
+.courses>h2, p {
+    text-align: center;
+}
+.category {
+    border-radius: 10px;
+    background-color: #EBF4FF;
+    padding : 10px ;
+    font-size: 12px;
+}
+.view {
+    font: 25px;
+}
