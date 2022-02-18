@@ -55,14 +55,15 @@
     width: 20%;
     height: 500px;
     text-align: center;
-    background-color: blue;
+    background-color: aqua;
     float: left;
 }
 .contentRight {
-    width: 150px;
+    width: 18%px;
     height: 100px ;
-    border: 1px solid black; 
+    border: 20px solid white; 
     text-align: center;
+    padding-left: 20px;
 }
 
 .footer {
@@ -73,4 +74,43 @@
     height: 50px;
     clear: both;
     line-height: 50px;
+}
+@media only screen and ( max-width :1000px) {
+    .left {
+        width: 20%;
+    }
+    .content {
+        width: 50%;
+
+    }
+    .Right {
+        width: 30%;
+    }
+
+}
+@media only screen and ( max-width :500px) {
+    .left {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+
+    }
+    .Right {
+        width: 100%;
+    }
+
+}
+@media only screen and ( max-width :700px) {
+    .left {
+        width: 30%;
+    }
+    .content {
+        width: 70%;
+
+    }
+    .Right {
+        width: 100%;
+    }
+
 }
